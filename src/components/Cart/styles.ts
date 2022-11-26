@@ -8,6 +8,7 @@ export const CartModal = styled.div`
     overflow: hidden;
     top: 0;
     right: 0;
+    z-index:1;
 
     @media screen and (max-width: 500px) {
         width: 330px;
