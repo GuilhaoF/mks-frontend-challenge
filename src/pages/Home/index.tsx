@@ -1,6 +1,6 @@
 import Cards from '../../components/Cards'
 import Header from '../../components/Header'
-import { Container, ContainerCards } from './styles'
+import { Container, ContainerCards } from '../../styles/home.styles'
 import { useGetProductsQuery } from "../../services/products"
 import { IParamProductRequest, IProduct, orderBy, sortBy } from '../../types'
 import { useState } from 'react'
