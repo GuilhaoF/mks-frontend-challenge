@@ -25,7 +25,7 @@ export default function Home() {
         sortBy: sortBy.id,
         orderBy: orderBy.DESC,
     }
-    const { data, error, isLoading } = useGetProductsQuery(productQuery);
+    const { data, isLoading } = useGetProductsQuery(productQuery);
 
     return (
         <div>
